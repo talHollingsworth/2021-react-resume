@@ -1,0 +1,177 @@
+@import url('https://unpkg.com/primer/build/build.css');
+
+.github-component {
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol !important;
+}
+
+.omni-row-gradient {
+  background: linear-gradient(to right, #906d7d 0%, #faf9ee 99%);
+
+  .btn {
+    background-color: unset;
+    background-image: unset;
+    padding: 2px 20px 2px 20px;
+    text-shadow: unset;
+    color: #352326;
+
+    &:active,
+    &:hover {
+      background-color: #eef2f7 !important;
+      color: unset !important;
+      text-shadow: unset !important;
+    }
+
+    .octicon {
+      margin-right: 6px;
+      fill: #352326;
+    }
+  }
+}
+
+.circle {
+  border-radius: 50% !important;
+}
+
+h1, h2, h3, h4 {
+  color: #906d7d;
+}
+
+h2 {
+  margin-bottom:0;
+}
+
+h3 {
+  margin-top:0;
+}
+
+.txt-gray-light {
+  color: #969696 !important;
+}
+
+.txt-yellow-dark {
+  color: #b7c18b !important;
+}
+
+.txt-yellow-light {
+  color: #faf9ee !important;
+}
+
+.txt-purple-bright {
+  color: #6b4a74 !important;
+}
+
+.txt-purple {
+  color: #352326 !important;
+}
+
+.txt-purple-light {
+  color: #906d7d !important;
+}
+
+.bg-gray-mid {
+  background-color: #e1e2dc !important;
+}
+
+.bg-yellow-dark {
+  background-color: #b7c18b !important;
+}
+
+.bg-yellow-light {
+  background-color: #faf9ee !important;
+}
+
+.bg-purple-bright {
+  background-color: #6b4a74 !important;
+}
+
+.bg-purple {
+  background-color: #352326 !important;
+}
+
+.bg-purple-light {
+  background-color: #906d7d !important;
+}
+
+.skill-set {
+  margin-bottom: 20px;
+
+  & > div {
+    min-height: 270px;
+  }
+}
+
+.txt-caps {
+  text-transform: uppercase !important;
+}
+
+ul.list-style-none {
+  margin-left: 0 !important;
+
+  & > li:before {
+    content: none !important;
+  }
+
+  &.txt-15 > li,
+  li {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+}
+
+.no-logo {
+  width: 135px;
+  height: 80px;
+
+  h4 {
+    top: 30px;
+    position: relative;
+  }
+}
+
+.ico-purple-bright {
+  svg {
+    fill: #6b4a74;
+  }
+}
+
+.ico-purple {
+  svg {
+    fill: #352326;
+  }
+}
+
+.ico-purple-light {
+  svg {
+    fill: #906d7d;
+  }
+}
+
+.ico-yellow-light {
+  svg {
+    fill: #faf9ee;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .omni-row-gradient {
+    &.multi-ling {
+      background: linear-gradient(to left, #faf9ee 0%, #906d7d 100%);
+    }
+  }
+  .omni-btns{
+    a {
+      width: 100% !important;
+      margin: 0 auto 10px !important;
+    }
+  }
+
+  .skill-set {
+    & > div {
+      min-height: unset;
+    }
+  }
+}
