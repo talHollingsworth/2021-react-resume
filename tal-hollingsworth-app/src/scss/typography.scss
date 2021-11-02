@@ -1,0 +1,359 @@
+.h1,
+h1 {
+    font-size: 83px;
+    font-size: 5.188rem;
+    font-weight: 600;
+    line-height: 56px;
+    line-height: 3.5rem;
+    font-family: "Seaweed Script", cursive;
+    padding: 20px 0;
+    text-shadow: 1px 5px 0px $tal-yellow;
+    position: relative;
+    z-index: 999;
+    top: 15px;
+}
+
+.h2,
+h2 {
+    font-size: 45px;
+    font-size: 2.813rem;
+    font-weight: 600;
+    line-height: 38px;
+    line-height: 2.375rem;
+    margin-bottom: 20px;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-top: 0;
+    text-transform: none;
+}
+
+.h3,
+.h4,
+h3,
+h4 {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 26px;
+    line-height: 1.625rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.h5,
+h5 {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 23px;
+    line-height: 1.4375rem;
+    margin-bottom: 10px;
+    text-transform: none;
+}
+
+.h5,
+dl,
+h5,
+p {
+    margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: $tal-green-dark;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}
+dl,
+p {
+    list-style: none;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+p > img {
+    margin-top: 5px;
+}
+
+p:empty {
+    display: none;
+}
+
+i {
+    font-weight: 400;
+}
+
+.lead-in {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 22px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 45px;
+    line-height: 2.813rem;
+    text-transform: none;
+}
+
+blockquote {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 42px;
+    font-size: 2.625rem;
+    font-weight: 600;
+    line-height: 60px;
+    line-height: 3.75rem;
+    text-transform: none;
+}
+
+cite {
+    text-align: right;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 22px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 45px;
+    line-height: 2.813rem;
+    text-transform: none;
+    width: 220px;
+    float: right;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+blockquote,
+cite {
+    background-color: black;
+    color: white;
+}
+
+.lead-in a,
+.lead-in strong {
+    font-weight: 600;
+}
+
+h1:not([class^="h"]) + .lead-in {
+    margin-top: -12px;
+}
+
+.h2 + h3,
+.h2 + h4,
+h2 + h3,
+h2 + h4 {
+    margin-top: 20px;
+}
+
+a.reset {
+    color: inherit;
+    font-weight: 400;
+}
+
+a.invert,
+a.reset {
+    text-decoration: none;
+}
+
+a.invert:hover {
+    text-decoration: underline;
+}
+
+a.back-to-top {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 11px;
+    font-size: 0.6875rem;
+    font-weight: 700;
+    line-height: 20px;
+    line-height: 1.25rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+a.error {
+    background-color: #ea0404;
+    color: #fff;
+}
+.txt-10 {
+    font-size: 10px !important;
+    font-size: 0.625rem !important;
+    line-height: 19px !important;
+    line-height: 1.1875rem !important;
+}
+
+.txt-11 {
+    font-size: 11px !important;
+    font-size: 0.6875rem !important;
+    line-height: 20px !important;
+    line-height: 1.25rem !important;
+}
+
+.txt-12 {
+    font-size: 12px !important;
+    font-size: 0.75rem !important;
+    line-height: 21px !important;
+    line-height: 1.3125rem !important;
+}
+
+.txt-13 {
+    font-size: 13px !important;
+    font-size: 0.8125rem !important;
+    line-height: 22px !important;
+    line-height: 1.375rem !important;
+}
+
+.txt-14 {
+    font-size: 14px !important;
+    font-size: 0.875rem !important;
+    line-height: 23px !important;
+    line-height: 1.4375rem !important;
+}
+
+.txt-15 {
+    font-size: 15px !important;
+    font-size: 0.9375rem !important;
+    line-height: 26px !important;
+    line-height: 1.625rem !important;
+}
+
+.txt-16 {
+    font-size: 16px !important;
+    font-size: 1rem !important;
+    line-height: 27px !important;
+    line-height: 1.6875rem !important;
+}
+
+.txt-17 {
+    font-size: 17px !important;
+    font-size: 1.0625rem !important;
+    line-height: 28px !important;
+    line-height: 1.75rem !important;
+}
+
+.txt-18 {
+    font-size: 18px !important;
+    font-size: 1.125rem !important;
+    line-height: 29px !important;
+    line-height: 1.8125rem !important;
+}
+
+.txt-19 {
+    font-size: 19px !important;
+    font-size: 1.1875rem !important;
+    line-height: 30px !important;
+    line-height: 1.875rem !important;
+}
+
+.txt-20 {
+    font-size: 20px !important;
+    font-size: 1.25rem !important;
+    line-height: 33px !important;
+    line-height: 2.0625rem !important;
+}
+
+.txt-21 {
+    font-size: 21px !important;
+    font-size: 1.3125rem !important;
+    line-height: 34px !important;
+    line-height: 2.125rem !important;
+}
+
+.txt-22 {
+    font-size: 22px !important;
+    font-size: 1.375rem !important;
+    line-height: 35px !important;
+    line-height: 2.1875rem !important;
+}
+
+.txt-23 {
+    font-size: 23px !important;
+    font-size: 1.4375rem !important;
+    line-height: 36px !important;
+    line-height: 2.25rem !important;
+}
+
+.txt-24 {
+    font-size: 24px !important;
+    font-size: 1.5rem !important;
+    line-height: 37px !important;
+    line-height: 2.3125rem !important;
+}
+
+.txt-25 {
+    font-size: 25px !important;
+    font-size: 1.5625rem !important;
+    line-height: 38px !important;
+    line-height: 2.375rem !important;
+}
+
+.txt-26 {
+    font-size: 26px !important;
+    font-size: 1.625rem !important;
+    line-height: 39px !important;
+    line-height: 2.4375rem !important;
+}
+
+.txt-27 {
+    font-size: 27px !important;
+    font-size: 1.6875rem !important;
+    line-height: 40px !important;
+    line-height: 2.5rem !important;
+}
+
+.txt-28 {
+    font-size: 28px !important;
+    font-size: 1.75rem !important;
+    line-height: 41px !important;
+    line-height: 2.5625rem !important;
+}
+
+.txt-29 {
+    font-size: 29px !important;
+    font-size: 1.8125rem !important;
+    line-height: 42px !important;
+    line-height: 2.625rem !important;
+}
+
+.txt-30 {
+    font-size: 30px !important;
+    font-size: 1.875rem !important;
+    line-height: 43px !important;
+    line-height: 2.6875rem !important;
+}
+@media #{$breakpoint-mobile} {
+    .h1,
+    h1 {
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 43px;
+        line-height: 2.6875rem;
+    }
+    .h2,
+    h2 {
+        font-size: 20px;
+        font-size: 1.25rem;
+        line-height: 33px;
+        line-height: 2.0625rem;
+    }
+    .h3,
+    .h4,
+    h3,
+    h4 {
+        font-weight: 600;
+    }
+    ol,
+    ul {
+        margin-left: 5px;
+    }
+    .lead-in {
+        font-size: 15px;
+        font-size: 0.9375rem;
+        line-height: 28px;
+        line-height: 1.75rem;
+    }
+}

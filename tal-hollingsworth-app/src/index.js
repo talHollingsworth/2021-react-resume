@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './src/scss/normalize.scss';
-import './src/scss/styles.scss';
-import './src/scss/fxcm-styles.scss';
+import './scss/normalize.scss';
+import './scss/main.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(  
-    <App />,
+ReactDOM.render(
+  <App />,
   document.getElementById('root')
 );
 

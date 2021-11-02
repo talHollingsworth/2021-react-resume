@@ -1,0 +1,856 @@
+.ico,
+.icon-balloon,
+.icon-balloon > span {
+    display: inline-block;
+    font-size: 0;
+    font-style: normal;
+    line-height: 0;
+    vertical-align: middle;
+}
+
+.has-ico:not(.btn) > .ico {
+    margin-top: -2px;
+}
+
+.ico {
+    & > svg {
+        height: 100%;
+        width: 100%;
+    }
+}
+// FIX - make this a mixin
+.ico-5 {
+    height: 5px;
+    width: 5px;
+}
+
+.ico-6 {
+    height: 6px;
+    width: 6px;
+}
+
+.ico-7 {
+    height: 7px;
+    width: 7px;
+}
+
+.ico-8 {
+    height: 8px;
+    width: 8px;
+}
+
+.ico-9 {
+    height: 9px;
+    width: 9px;
+}
+
+.ico-10 {
+    height: 10px;
+    width: 10px;
+}
+
+.ico-11 {
+    height: 11px;
+    width: 11px;
+}
+
+.ico-12 {
+    height: 12px;
+    width: 12px;
+}
+
+.ico-13 {
+    height: 13px;
+    width: 13px;
+}
+
+.ico-14 {
+    height: 14px;
+    width: 14px;
+}
+
+.ico-15 {
+    height: 15px;
+    width: 15px;
+}
+
+.ico-16 {
+    height: 16px;
+    width: 16px;
+}
+
+.ico-17 {
+    height: 17px;
+    width: 17px;
+}
+
+.ico-18 {
+    height: 18px;
+    width: 18px;
+}
+
+.ico-19 {
+    height: 19px;
+    width: 19px;
+}
+
+.ico-20 {
+    height: 20px;
+    width: 20px;
+}
+
+.ico-21 {
+    height: 21px;
+    width: 21px;
+}
+
+.ico-22 {
+    height: 22px;
+    width: 22px;
+}
+
+.ico-23 {
+    height: 23px;
+    width: 23px;
+}
+
+.ico-24 {
+    height: 24px;
+    width: 24px;
+}
+
+.ico-25 {
+    height: 25px;
+    width: 25px;
+}
+
+.ico-26 {
+    height: 26px;
+    width: 26px;
+}
+
+.ico-28 {
+    height: 28px;
+    width: 28px;
+}
+
+.ico-30 {
+    height: 30px;
+    width: 30px;
+}
+
+.ico-32 {
+    height: 32px;
+    width: 32px;
+}
+
+.ico-34 {
+    height: 34px;
+    width: 34px;
+}
+
+.ico-36 {
+    height: 36px;
+    width: 36px;
+}
+
+.ico-38 {
+    height: 38px;
+    width: 38px;
+}
+
+.ico-40 {
+    height: 40px;
+    width: 40px;
+}
+
+.ico-45 {
+    height: 45px;
+    width: 45px;
+}
+
+.ico-50 {
+    height: 50px;
+    width: 50px;
+}
+
+.ico-55 {
+    height: 55px;
+    width: 55px;
+}
+
+.ico-60 {
+    height: 60px;
+    width: 60px;
+}
+
+.ico-65 {
+    height: 65px;
+    width: 65px;
+}
+
+.ico-70 {
+    height: 70px;
+    width: 70px;
+}
+
+.ico-75 {
+    height: 75px;
+    width: 75px;
+}
+
+.ico-80 {
+    height: 80px;
+    width: 80px;
+}
+
+.ico-90 {
+    height: 90px;
+    width: 90px;
+}
+
+.ico-100 {
+    height: 100px;
+    width: 100px;
+}
+
+.ico-110 {
+    height: 110px;
+    width: 110px;
+}
+
+.ico-120 {
+    height: 120px;
+    width: 120px;
+}
+
+.ico-130 {
+    height: 130px;
+    width: 130px;
+}
+
+.ico-140 {
+    height: 140px;
+    width: 140px;
+}
+
+.ico-150 {
+    height: 150px;
+    width: 150px;
+}
+
+.ico-160 {
+    height: 160px;
+    width: 160px;
+}
+
+.ico-170 {
+    height: 170px;
+    width: 170px;
+}
+
+.ico-175 {
+    height: 175px;
+    width: 175px;
+}
+
+.ico-180 {
+    height: 180px;
+    width: 180px;
+}
+
+.ico-190 {
+    height: 190px;
+    width: 190px;
+}
+
+.ico-200 {
+    height: 200px;
+    width: 200px;
+}
+
+.ico-grey svg,
+.ico-hover-grey:hover svg {
+    fill: #b2bfd0;
+}
+
+.ico-grey-darkest svg,
+.ico-hover-grey-darkest:hover svg {
+    fill: #283545;
+}
+
+.ico-grey-darker svg,
+.ico-hover-grey-darker:hover svg {
+    fill: #5b6a88;
+}
+
+.ico-grey-dark svg,
+.ico-hover-grey-dark:hover svg {
+    fill: #8799ae;
+}
+
+.ico-grey-light svg,
+.ico-hover-grey-light:hover svg {
+    fill: #e0e4e9;
+}
+
+.ico-grey-lighter svg,
+.ico-hover-grey-lighter:hover svg {
+    fill: #ebf0f4;
+}
+
+.ico-grey-lightest svg,
+.ico-hover-grey-lightest:hover svg {
+    fill: #f6f7f8;
+}
+
+.ico-hover-teal:hover svg,
+.ico-teal svg {
+    fill: #01acb6;
+}
+
+.ico-hover-teal-dark:hover svg,
+.ico-teal-dark svg {
+    fill: #0a8194;
+}
+
+.ico-hover-teal-light:hover svg,
+.ico-teal-light svg {
+    fill: #18d5d2;
+}
+
+.ico-blue svg,
+.ico-hover-blue:hover svg {
+    fill: #0c51a3;
+}
+
+.ico-blue-light svg,
+.ico-hover-blue-light:hover svg {
+    fill: #0e75bd;
+}
+
+.ico-blue-lighter svg,
+.ico-hover-blue-lighter:hover svg {
+    fill: #4fc2ea;
+}
+
+.ico-hover-mustard:hover svg,
+.ico-mustard svg {
+    fill: #edda8e;
+}
+
+.ico-hover-yellow:hover svg,
+.ico-yellow svg {
+    fill: #f4ad03;
+}
+
+.ico-beige svg,
+.ico-hover-beige:hover svg {
+    fill: #f6f4e1;
+}
+
+.ico-hover-red:hover svg,
+.ico-red svg {
+    fill: #ea0404;
+}
+
+.ico-green svg,
+.ico-hover-green:hover svg {
+    fill: #67b20b;
+}
+
+.ico-black svg,
+.ico-hover-black:hover svg {
+    fill: #000;
+}
+
+.ico-hover-white:hover svg,
+.ico-white svg {
+    fill: #fff;
+}
+
+.ico-bg.ico-grey:after,
+.ico-bg.ico-hover-grey:hover:after {
+    background-color: #b2bfd0;
+}
+
+.ico-bg.ico-grey-darkest:after,
+.ico-bg.ico-hover-grey-darkest:hover:after {
+    background-color: #283545;
+}
+
+.ico-bg.ico-grey-darker:after,
+.ico-bg.ico-hover-grey-darker:hover:after {
+    background-color: #5b6a88;
+}
+
+.ico-bg.ico-grey-dark:after,
+.ico-bg.ico-hover-grey-dark:hover:after {
+    background-color: #8799ae;
+}
+
+.ico-bg.ico-grey-light:after,
+.ico-bg.ico-hover-grey-light:hover:after {
+    background-color: #e0e4e9;
+}
+
+.ico-bg.ico-grey-lighter:after,
+.ico-bg.ico-hover-grey-lighter:hover:after {
+    background-color: #ebf0f4;
+}
+
+.ico-bg.ico-grey-lightest:after,
+.ico-bg.ico-hover-grey-lightest:hover:after {
+    background-color: #f6f7f8;
+}
+
+.ico-bg.ico-hover-teal:hover:after,
+.ico-bg.ico-teal:after {
+    background-color: #01acb6;
+}
+
+.ico-bg.ico-hover-teal-dark:hover:after,
+.ico-bg.ico-teal-dark:after {
+    background-color: #0a8194;
+}
+
+.ico-bg.ico-hover-teal-light:hover:after,
+.ico-bg.ico-teal-light:after {
+    background-color: #18d5d2;
+}
+
+.ico-bg.ico-blue:after,
+.ico-bg.ico-hover-blue:hover:after {
+    background-color: #0c51a3;
+}
+
+.ico-bg.ico-blue-light:after,
+.ico-bg.ico-hover-blue-light:hover:after {
+    background-color: #0e75bd;
+}
+
+.ico-bg.ico-blue-lighter:after,
+.ico-bg.ico-hover-blue-lighter:hover:after {
+    background-color: #4fc2ea;
+}
+
+.ico-bg.ico-hover-mustard:hover:after,
+.ico-bg.ico-mustard:after {
+    background-color: #edda8e;
+}
+
+.ico-bg.ico-hover-yellow:hover:after,
+.ico-bg.ico-yellow:after {
+    background-color: #f4ad03;
+}
+
+.ico-bg.ico-beige:after,
+.ico-bg.ico-hover-beige:hover:after {
+    background-color: #f6f4e1;
+}
+
+.ico-bg.ico-hover-red:hover:after,
+.ico-bg.ico-red:after {
+    background-color: #ea0404;
+}
+
+.ico-bg.ico-green:after,
+.ico-bg.ico-hover-green:hover:after {
+    background-color: #67b20b;
+}
+
+.ico-bg.ico-black:after,
+.ico-bg.ico-hover-black:hover:after {
+    background-color: #000;
+}
+
+.ico-bg.ico-hover-white:hover:after,
+.ico-bg.ico-white:after {
+    background-color: #fff;
+}
+
+.ico-bg.ico-greay-lighter svg,
+.ico-bg.ico-grey-lightest svg,
+.ico-bg.ico-white svg {
+    fill: #283545;
+}
+
+.ico-bg,
+.ico-bg svg {
+    position: relative;
+}
+
+.ico-bg svg {
+    fill: #fff;
+    padding: 20%;
+    z-index: 10;
+}
+
+.ico-bg:after {
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.ico-bg.ico-bg-pad-25 svg {
+    padding: 25%;
+}
+
+.ico-bg.ico-bg-pad-30 svg {
+    padding: 30%;
+}
+
+.ico-shadow:after {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.ico-bg.ico-rounded:after {
+    border-radius: 10%;
+}
+
+.ico-bg.ico-circle:after {
+    border-radius: 50%;
+}
+
+.icon-balloon {
+    position: relative;
+    text-align: center;
+}
+
+.icon-balloon:after {
+    -webkit-transform: skew(0, -35deg);
+    background-color: #b2bfd0;
+    bottom: 20%;
+    content: "";
+    left: 50%;
+    padding: 50%;
+    position: absolute;
+    transform: skew(0, -35deg);
+}
+
+.icon-balloon > span {
+    background-color: #b2bfd0;
+    border-radius: 10%;
+    margin-bottom: 50%;
+    padding: 30% 0;
+    position: relative;
+    width: 200%;
+    z-index: 5;
+}
+
+.icon-balloon svg {
+    fill: #fff;
+}
+
+.icon-balloon.ico-grey:after,
+.icon-balloon.ico-grey > span {
+    background-color: #b2bfd0;
+}
+
+.icon-balloon.ico-grey-darkest:after,
+.icon-balloon.ico-grey-darkest > span {
+    background-color: #283545;
+}
+
+.icon-balloon.ico-grey-darker:after,
+.icon-balloon.ico-grey-darker > span {
+    background-color: #5b6a88;
+}
+
+.icon-balloon.ico-grey-dark:after,
+.icon-balloon.ico-grey-dark > span {
+    background-color: #8799ae;
+}
+
+.icon-balloon.ico-grey-light:after,
+.icon-balloon.ico-grey-light > span {
+    background-color: #e0e4e9;
+}
+
+.icon-balloon.ico-grey-lighter:after,
+.icon-balloon.ico-grey-lighter > span {
+    background-color: #ebf0f4;
+}
+
+.icon-balloon.ico-grey-lightest:after,
+.icon-balloon.ico-grey-lightest > span {
+    background-color: #f6f7f8;
+}
+
+.icon-balloon.ico-teal:after,
+.icon-balloon.ico-teal > span {
+    background-color: #01acb6;
+}
+
+.icon-balloon.ico-teal-dark:after,
+.icon-balloon.ico-teal-dark > span {
+    background-color: #0a8194;
+}
+
+.icon-balloon.ico-teal-light:after,
+.icon-balloon.ico-teal-light > span {
+    background-color: #18d5d2;
+}
+
+.icon-balloon.ico-blue:after,
+.icon-balloon.ico-blue > span {
+    background-color: #0c51a3;
+}
+
+.icon-balloon.ico-blue-light:after,
+.icon-balloon.ico-blue-light > span {
+    background-color: #0e75bd;
+}
+
+.icon-balloon.ico-blue-lighter:after,
+.icon-balloon.ico-blue-lighter > span {
+    background-color: #4fc2ea;
+}
+
+.icon-balloon.ico-mustard:after,
+.icon-balloon.ico-mustard > span {
+    background-color: #edda8e;
+}
+
+.icon-balloon.ico-yellow:after,
+.icon-balloon.ico-yellow > span {
+    background-color: #f4ad03;
+}
+
+.icon-balloon.ico-beige:after,
+.icon-balloon.ico-beige > span {
+    background-color: #f6f4e1;
+}
+
+.icon-balloon.ico-red:after,
+.icon-balloon.ico-red > span {
+    background-color: #ea0404;
+}
+
+.icon-balloon.ico-green:after,
+.icon-balloon.ico-green > span {
+    background-color: #67b20b;
+}
+
+.icon-balloon.ico-black:after,
+.icon-balloon.ico-black > span {
+    background-color: #000;
+}
+
+.icon-balloon.ico-white:after,
+.icon-balloon.ico-white > span {
+    background-color: #fff;
+}
+
+.ico-purple-bright {
+    svg {
+        fill: #6b4a74;
+    }
+}
+
+.ico-purple {
+    svg {
+        fill: #352326;
+    }
+}
+
+.ico-purple-light {
+    svg {
+        fill: #906d7d;
+    }
+}
+
+.ico-yellow-light {
+    svg {
+        fill: #faf9ee;
+    }
+}
+.has-stem {
+    position: relative;
+}
+
+.has-stem:after {
+    border: 10px solid transparent;
+    content: "";
+    display: block;
+    font-size: 0;
+    height: 0;
+    position: absolute;
+    width: 0;
+}
+
+.stem-grey:after {
+    border-color: #b2bfd0;
+}
+
+.stem-grey-darkest:after {
+    border-color: #283545;
+}
+
+.stem-grey-darker:after {
+    border-color: #5b6a88;
+}
+
+.stem-grey-dark:after {
+    border-color: #8799ae;
+}
+
+.stem-grey-light:after {
+    border-color: #e0e4e9;
+}
+
+.stem-grey-lighter:after {
+    border-color: #ebf0f4;
+}
+
+.stem-grey-lightest:after {
+    border-color: #f6f7f8;
+}
+
+.stem-teal:after {
+    border-color: #01acb6;
+}
+
+.stem-teal-dark:after {
+    border-color: #0a8194;
+}
+
+.stem-teal-light:after {
+    border-color: #18d5d2;
+}
+
+.stem-blue:after {
+    border-color: #0c51a3;
+}
+
+.stem-blue-light:after {
+    border-color: #0e75bd;
+}
+
+.stem-blue-lighter:after {
+    border-color: #4fc2ea;
+}
+
+.stem-mustard:after {
+    border-color: #edda8e;
+}
+
+.stem-yellow:after {
+    border-color: #f4ad03;
+}
+
+.stem-beige:after {
+    border-color: #f6f4e1;
+}
+
+.stem-red:after {
+    border-color: #ea0404;
+}
+
+.stem-green:after {
+    border-color: #67b20b;
+}
+
+.stem-black:after {
+    border-color: #000;
+}
+
+.stem-white:after {
+    border-color: #fff;
+}
+
+.stem-right-bottom:after,
+.stem-right-top:after,
+.stem-right:after {
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    right: -20px;
+}
+
+.stem-right:after {
+    -webkit-transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.stem-right-top:after {
+    top: 10px;
+}
+
+.stem-right-bottom:after {
+    bottom: 10px;
+}
+
+.stem-top-left:after,
+.stem-top-right:after,
+.stem-top:after {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    top: -20px;
+}
+
+.stem-top:after {
+    -webkit-transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stem-top-right:after {
+    right: 10px;
+}
+
+.stem-top-left:after {
+    left: 10px;
+}
+
+.stem-left-bottom:after,
+.stem-left-top:after,
+.stem-left:after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    left: -20px;
+}
+
+.stem-left:after {
+    -webkit-transform: translateY(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.stem-left-top:after {
+    top: 10px;
+}
+
+.stem-left-bottom:after {
+    bottom: 10px;
+}
+
+.stem-bottom-left:after,
+.stem-bottom-right:after,
+.stem-bottom:after {
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    bottom: -20px;
+}
+
+.stem-bottom:after {
+    -webkit-transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.stem-bottom-right:after {
+    right: 10px;
+}
+
+.stem-bottom-left:after {
+    left: 10px;
+}

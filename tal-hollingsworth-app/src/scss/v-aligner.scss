@@ -1,0 +1,24 @@
+.v-aligner {
+    align-items: center;
+    display: flex;
+}
+
+.v-aligner.align-top {
+    align-items: normal;
+}
+
+.v-aligner.align-top .icon-wrapper {
+    padding-top: 10px;
+}
+
+.v-aligner.align-bottom {
+    align-items: flex-end;
+}
+
+.v-aligner .v-align {
+    flex: 0 1 auto;
+}
+
+.v-aligner.unalign {
+    display: block;
+}

@@ -1,0 +1,5 @@
+$breakpoint-desktop : "screen and (min-width: 1100px)";
+$breakpoint-tablet-and-desktop : "screen and (min-width: 600px)";
+$breakpoint-tablet : "screen and (min-width: 600px) and (max-width: 1099px)";
+$breakpoint-mobile : "screen and (max-width: 599px)";
+$breakpoint-mobile-and-tablet : "screen and (max-width: 1099px)";
