@@ -1,7 +1,7 @@
 .h1,
 h1 {
-    font-size: 83px;
-    font-size: 5.188rem;
+    font-size: 80px;
+    font-size: 5rem;
     font-weight: 600;
     line-height: 56px;
     line-height: 3.5rem;
@@ -11,12 +11,25 @@ h1 {
     position: relative;
     z-index: 999;
     top: 15px;
+
+    @media #{$breakpoint-mobile} {
+        text-shadow: 1px 3px 0px $tal-yellow;
+    }
+
+    &.inverse {
+        text-shadow: 1px 5px 0px black;
+        color: $tal-yellow;
+
+        @media #{$breakpoint-mobile} {
+            text-shadow: 1px 3px 0px black;
+        }
+    }
 }
 
 .h2,
 h2 {
-    font-size: 45px;
-    font-size: 2.813rem;
+    font-size: 35px;
+    font-size: 2.188rem;
     font-weight: 600;
     line-height: 38px;
     line-height: 2.375rem;
@@ -111,6 +124,20 @@ blockquote {
     line-height: 60px;
     line-height: 3.75rem;
     text-transform: none;
+
+    @media #{$breakpoint-mobile} {
+        font-size: 18px;
+        font-size: 1.125rem;
+        line-height: 30px;
+        line-height: 1.875rem;
+    }
+
+    @media #{$breakpoint-tablet} {
+        font-size: 28px;
+        font-size: 1.75rem;
+        line-height: 50px;
+        line-height: 3.125rem;
+    }
 }
 
 cite {
@@ -122,10 +149,17 @@ cite {
     line-height: 45px;
     line-height: 2.813rem;
     text-transform: none;
-    width: 220px;
+    width: auto;
     float: right;
     margin-top: 20px;
     padding: 7px;
+
+    @media #{$breakpoint-mobile-and-tablet} {
+        font-size: 18px;
+        font-size: 1.125rem;
+        line-height: 30px;
+        line-height: 1.875rem;
+    }
 }
 
 blockquote,
@@ -134,8 +168,8 @@ cite {
     color: white;
 }
 
-.lead-in a,
-.lead-in strong {
+a,
+strong {
     font-weight: 600;
 }
 
@@ -328,10 +362,11 @@ a.error {
 @media #{$breakpoint-mobile} {
     .h1,
     h1 {
-        font-size: 28px;
-        font-size: 1.75rem;
-        line-height: 43px;
-        line-height: 2.6875rem;
+        font-size: 35px;
+        font-size: 2.188rem;
+        line-height: 48px;
+        line-height: 3rem;
+        text-align: center;
     }
     .h2,
     h2 {

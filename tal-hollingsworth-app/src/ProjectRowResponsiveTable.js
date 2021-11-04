@@ -59,8 +59,8 @@ export class ProjectRowResponsiveTable extends React.Component {
                                 </div>
                             </div>
                             <div className={"grid-40 pull-60"}>
-                                <h2 className={"txt-purple txt-caps margin-bottom-0"}>Responsive Table Module</h2>
-                                <h3 className={"txt-open-sans-regular margin-top-0"}><span className={"txt-purple-bright txt-open-sans-bold"}>Project Role</span> Development</h3>
+                                <h2 className={"margin-bottom-0"}>Responsive Table Module</h2>
+                                <h3 className={"margin-top-0"}><span className={"txt-yellow"}>Project Role</span> Development</h3>
                                 <ul className={"fxcm-list txt-15 list-style-none"}>
                                     <li><a href={"https://www.fxcm.com/uk/accounts/spread-costs/"} className={"invert"} target={"_blank"} rel={"noreferrer"}>Three Column</a></li>
                                     <li><a href={"https://www.fxcm.com/uk/indices/spread-costs/"} className={"invert"} target={"_blank"} rel={"noreferrer"}>Two Column</a></li>

@@ -12,8 +12,8 @@ export class ProjectRowFxcmRatesWidget extends React.Component {
                                 <img src={"./img/rate-widget.jpg"} alt={"FXCM Rates Widget"} />
                             </div>
                             <div className={"grid-40"}>
-                                <h2 className={"txt-purple margin-bottom-0"}>FXCM Rates Widget - Angular Widget</h2>
-                                <h3 className={"txt-open-sans-regular margin-top-0"}><span className={"txt-purple-bright txt-open-sans-bold"}>Project Role</span> Update + Maintenance</h3>
+                                <h2 className={"margin-bottom-0"}>FXCM Rates Widget - Angular Widget</h2>
+                                <h3 className={"margin-top-0"}><span className={"txt-yellow txt-open-sans-bold"}>Project Role</span> Update + Maintenance</h3>
                                 <ul className={"fxcm-list txt-15 list-style-none"}>
                                     <li><a href={"https://www.fxcm.com/uk"} className={"invert"} target={"_blank"} rel={"noreferrer"}>Homepage Version</a></li>
                                 </ul>

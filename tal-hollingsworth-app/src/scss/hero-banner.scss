@@ -1,23 +1,15 @@
 @import "./breakpoints.scss";
 
 .hero-banner {
-    flex: 1;
-    justify-content: center;
     background-color: #e5e5e5;
     background-image: url("../img/black-and-white-texas-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 800px;
-    position: relative;
-    background-position-y: -71px;
-    
-    @media #{$breakpoint-tablet} {
-      top: -90px;
-      height: 600px;
-      position: relative;    
+    min-height: 800px;  
+
+    @media #{$breakpoint-mobile-and-tablet} {
+      min-height: 500px;
     }
-
-
    
     p {
       color: $tal-green-dark;

@@ -25,9 +25,9 @@ export class ProjectRowMultilingual extends React.Component {
                                 </div>
                             </div>
                             <div className={"grid-40"}>
-                                <h2 className={"txt-purple txt-caps margin-bottom-0"}>Multilingual Development</h2>
-                                <h3 className={"txt-open-sans-regular margin-top-0"}>
-                                    <span className={"txt-purple-bright txt-open-sans-bold"}>Project Role</span> Development
+                                <h2 className={"margin-bottom-0"}>Multilingual Development</h2>
+                                <h3 className={"margin-top-0"}>
+                                    <span className={"txt-yellow"}>Project Role</span> Development
                                 </h3>
                                 <ul className={"fxcm-list txt-15 list-style-none"}>
 
