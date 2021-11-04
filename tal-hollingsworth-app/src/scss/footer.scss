@@ -1,0 +1,230 @@
+footer {
+    background-color: #121d2b;
+    color: #fff;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul,
+footer ul li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+footer ul li:before {
+    content: none;
+}
+
+footer a,
+footer a:visited {
+    color: #fff;
+}
+
+.footer-sitemap {
+    background: #1d2937;
+    border-bottom: 1px solid #03080e;
+    color: #abc0e3;
+    font-family: "Open Sans";
+    font-size: 0.81rem;
+    font-weight: 600;
+    padding: 18px 0 12px;
+}
+
+.footer-sitemap > .unit {
+    padding-right: 40px;
+}
+
+.footer-sitemap * {
+    font-size: 13px;
+    font-size: 0.81rem;
+}
+
+.footer-sitemap h3 {
+    color: #abc0e3;
+    font-weight: 600;
+    margin-bottom: 12px;
+    margin-top: 11px;
+    position: relative;
+}
+
+.footer-sitemap h3:after {
+    background-color: #020508;
+    border-bottom: 1px solid #3e4c5e;
+    bottom: -6px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+
+.footer-sitemap li {
+    margin-bottom: 3px;
+    padding-bottom: 0;
+}
+
+.footer-sitemap li > a {
+    display: block;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 4px 10px;
+    text-decoration: none;
+    transition: background-color 0.2s ease 0s;
+}
+
+.footer-sitemap li > .no-link {
+    display: block;
+    padding-bottom: 3px;
+    padding-top: 2px;
+}
+
+.footer-sitemap li > a:hover {
+    background-color: #283545;
+}
+
+.footer-sitemap li.no-link > a {
+    color: inherit;
+    cursor: default;
+    text-decoration: none;
+}
+
+.footer-sitemap li.no-link > a:hover {
+    background: none;
+}
+
+.footer-sitemap li.menu-item-country-select #country-select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #fff;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    height: 38px;
+    line-height: 22px;
+    line-height: 1.375rem;
+    margin-top: 7px;
+    padding: 8px 10px;
+    position: relative;
+    width: 99%;
+}
+
+.footer-sitemap li.menu-item-country-select #country-select option[selected] {
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    line-height: 22px;
+    line-height: 1.375rem;
+}
+
+.footer-sitemap li.menu-item-country-select #country-select::-ms-expand {
+    display: none;
+}
+
+.footer-sitemap li.menu-item-country-select:before {
+    border: 6px solid transparent;
+    border-top-color: #1d2937;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 12px;
+    top: 23px;
+    width: 0;
+    z-index: 100;
+}
+
+.footer-sitemap .footer-social li {
+    display: inline-block;
+    margin: 5px 20px 5px 0;
+}
+
+.footer-sitemap .footer-social li > a {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-sitemap .footer-social li > a .ico svg {
+    transition: fill 0.2s ease 0s;
+}
+
+.footer-sitemap .footer-social li > a .ico:after {
+    transition: background-color 0.2s ease 0s;
+}
+
+.footer-sitemap .footer-social li > a .ico-facebook svg {
+    -webkit-transform: translateY(0.5%);
+    transform: translateY(0.5%);
+}
+
+.footer-sitemap .footer-social li > a .ico-twitter svg {
+    -webkit-transform: translate(2%, 1%);
+    transform: translate(2%, 1%);
+}
+
+.footer-sitemap .footer-social li > a .ico-google-plus svg {
+    -webkit-transform: translate(2%, 2%);
+    transform: translate(2%, 2%);
+}
+
+.footer-sitemap .footer-social li > a .ico-youtube svg {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+}
+
+.footer-sitemap .footer-social li > a:hover {
+    background-color: transparent;
+}
+
+.footer-sitemap .footer-social li > a:hover .ico svg {
+    fill: #fff;
+}
+
+.footer-sitemap .footer-social li > a:hover .ico-facebook:after {
+    background-color: #3b5998;
+}
+
+.footer-sitemap .footer-social li > a:hover .ico-twitter:after {
+    background-color: #00aced;
+}
+
+.footer-sitemap .footer-social li > a:hover .ico-google-plus:after {
+    background-color: #dd4b39;
+}
+
+.footer-sitemap .footer-social li > a:hover .ico-youtube:after {
+    background-color: red;
+}
+
+.footer-legal {
+    border-top: 1px solid #303a46;
+    padding: 40px 0 10px;
+}
+
+.copyright {
+    border-top: 1px solid #fff;
+    padding: 10px 0;
+}
+
+.copyright p {
+    margin-bottom: 0;
+}
+
+.copyright ul {
+    display: inline;
+    list-style: none;
+}
+
+.copyright li {
+    display: inline;
+    padding-right: 5px;
+}
+
+.address {
+    padding-bottom: 30px;
+}

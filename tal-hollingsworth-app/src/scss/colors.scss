@@ -1,0 +1,119 @@
+$tal-grey: #5b5b5c;
+$tal-yellow-light: #a4a464;
+$tal-yellow: #f4ad03;
+$tal-yellow-dark: #66560c;
+$tal-green-dark: #292c19;
+$tal-grey-lighter: rgb(224, 223, 223);
+$tal-grey-light: rgb(167, 166, 166);
+$tal-grey: rgb(112, 112, 112);
+$tal-grey-dark: rgb(68, 68, 68);
+$tal-grey-darkest: rgb(31, 31, 31);
+
+.txt-white {
+    color: #fff !important;
+}
+
+.txt-grey-lighter {
+    color: $tal-grey-lighter !important;
+}
+.txt-grey-light {
+    color: $tal-grey-light !important;
+}
+.txt-grey {
+    color: $tal-grey !important;
+}
+.txt-grey-dark {
+    color: $tal-grey-dark !important;
+}
+.txt-grey-darkest {
+    color: $tal-grey-darkest !important;
+}
+
+.txt-yellow-light {
+    color: $tal-yellow-light !important;
+}
+
+.txt-yellow {
+    color: $tal-yellow !important;
+}
+.txt-yellow-dark {
+    color: $tal-yellow-dark !important;
+}
+
+.txt-green-dark {
+    color: $tal-green-dark !important;
+}
+
+.txt-gray-light {
+    color: #969696 !important;
+}
+
+.txt-purple-bright {
+    color: #6b4a74 !important;
+}
+
+.txt-purple {
+    color: #352326 !important;
+}
+
+.txt-purple-light {
+    color: #906d7d !important;
+}
+
+.bg-black {
+    color: black !important;
+}
+
+.bg-purple-bright {
+    background-color: #6b4a74 !important;
+}
+
+.bg-purple {
+    background-color: #352326 !important;
+}
+
+.bg-purple-light {
+    background-color: #906d7d !important;
+}
+.bg-grey-lighter {
+    background-color: $tal-grey-lighter !important;
+}
+.bg-grey-light {
+    background-color: $tal-grey-light !important;
+}
+.bg-grey {
+    background-color: $tal-grey !important;
+}
+.bg-grey-dark {
+    background-color: $tal-grey-dark !important;
+}
+.bg-grey-darkest {
+    background-color: $tal-grey-darkest !important;
+}
+.bg-yellow-light {
+    background-color: $tal-yellow-light !important;
+}
+
+.bg-yellow {
+    background-color: $tal-yellow !important;
+}
+.bg-yellow-dark {
+    background-color: $tal-yellow-dark !important;
+}
+
+.bg-green-dark {
+    background-color: $tal-green-dark !important;
+}
+
+.bg-gray-mid {
+    background-color: #e1e2dc !important;
+}
+
+.bg-black {
+    background-color: #000;
+    color: #fff;
+}
+
+.bg-white {
+    background-color: #fff;
+}

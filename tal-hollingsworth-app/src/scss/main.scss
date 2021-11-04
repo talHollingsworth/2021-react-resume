@@ -1,0 +1,38 @@
+@import url(https://unpkg.com/primer@11.0.0/build/build.css);
+@import "./colors.scss";
+@import "./reset.scss";
+@import "./grid.scss";
+@import "./breakpoints.scss";
+@import "./typography.scss";
+@import "./table.scss";
+@import "./button.scss";
+@import "./hero-banner.scss";
+@import "./icon.scss";
+@import "./list.scss";
+@import "./border.scss";
+@import "./convenience-classes.scss";
+@import "./footer.scss";
+@import "./v-aligner.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Seaweed+Script&display=swap");
+
+// @charset "UTF-8";
+
+.circle {
+    border-radius: 50% !important;
+}
+
+.skill-set {
+    margin-bottom: 20px;
+
+    & > div {
+        min-height: 270px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skill-set {
+        & > div {
+            min-height: unset;
+        }
+    }
+}

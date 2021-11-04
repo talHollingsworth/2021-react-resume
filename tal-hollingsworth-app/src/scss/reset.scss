@@ -1,0 +1,170 @@
+*,
+:after,
+:before {
+    border-width: 0;
+    box-sizing: border-box;
+}
+
+body,
+button,
+html,
+input,
+select,
+textarea {
+    color: $tal-green-dark;
+}
+
+body {
+    background-color: white;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 22px;
+    line-height: 1.375rem;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+:focus {
+    outline: none;
+}
+
+.pseudo-link,
+a {
+    color: #0c51a3;
+
+    &:hover {
+        cursor: pointer;
+        outline: 0;
+        text-decoration: none;
+    }
+
+    &:focus,
+    &:visited {
+        outline: none;
+    }
+
+    &:active {
+        cursor: pointer;
+        outline: 0;
+    }
+}
+
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+
+b,
+mark,
+strong {
+    font-weight: 700;
+}
+
+mark {
+    background: white;
+}
+
+form {
+    margin: 0;
+}
+
+button,
+input[type="button"],
+input[type="email"],
+input[type="reset"],
+input[type="submit"],
+input[type="tel"],
+input[type="text"],
+select,
+textarea {
+    background: none transparent;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+    *overflow: visible;
+}
+
+button[disabled],
+input[disabled] {
+    cursor: default;
+}
+
+button {
+    border: none;
+}
+
+body[data-os="ios"] button,
+body[data-os="ios"] button.invalid,
+body[data-os="ios"] input[type="button"],
+body[data-os="ios"] input[type="button"].invalid,
+body[data-os="ios"] input[type="email"],
+body[data-os="ios"] input[type="email"].invalid,
+body[data-os="ios"] input[type="reset"],
+body[data-os="ios"] input[type="reset"].invalid,
+body[data-os="ios"] input[type="submit"],
+body[data-os="ios"] input[type="submit"].invalid,
+body[data-os="ios"] input[type="tel"],
+body[data-os="ios"] input[type="tel"].invalid,
+body[data-os="ios"] input[type="text"],
+body[data-os="ios"] input[type="text"].invalid,
+body[data-os="ios"] select,
+body[data-os="ios"] select.invalid,
+body[data-os="ios"] textarea,
+body[data-os="ios"] textarea.invalid,
+body[data-os="macintosh"] button,
+body[data-os="macintosh"] button.invalid,
+body[data-os="macintosh"] input[type="button"],
+body[data-os="macintosh"] input[type="button"].invalid,
+body[data-os="macintosh"] input[type="email"],
+body[data-os="macintosh"] input[type="email"].invalid,
+body[data-os="macintosh"] input[type="reset"],
+body[data-os="macintosh"] input[type="reset"].invalid,
+body[data-os="macintosh"] input[type="submit"],
+body[data-os="macintosh"] input[type="submit"].invalid,
+body[data-os="macintosh"] input[type="tel"],
+body[data-os="macintosh"] input[type="tel"].invalid,
+body[data-os="macintosh"] input[type="text"],
+body[data-os="macintosh"] input[type="text"].invalid,
+body[data-os="macintosh"] select,
+body[data-os="macintosh"] select.invalid,
+body[data-os="macintosh"] textarea,
+body[data-os="macintosh"] textarea.invalid {
+    -webkit-appearance: none;
+}
+
+.visuallyhidden {
+    position: absolute;
+}
+
+embed,
+img,
+video {
+    height: auto !important;
+    max-width: 100%;
+    width: auto !important;
+}
+
+.hide,
+body[data-device="desktop"] .device-desktop-hide,
+body[data-device="phone"] .device-phone-hide,
+body[data-device="tablet"] .device-tablet-hide,
+body[data-device="unknown"] .device-phone-hide,
+body[data-istouch="true"] .device-touch-hide {
+    display: none !important;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}

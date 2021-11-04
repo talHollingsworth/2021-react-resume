@@ -1,29 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+// import './js/fxcm.min.js';
 import { Nav } from './Nav';
+import { HeroBanner } from './HeroBanner';
+import { VisuallyHiddenSvgIcons } from './VisuallyHidden';
+import { AdditionalContentRows } from './AdditionalContentRows';
+import { Contact } from './Contact';
 
 function App() {
-  return (    
-    <div className="App">
+  return (
+    <div className={"app"}>
       <Nav />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learning React
-        </a>
-      </header>
 
-    </div>    
+      <div id={"global_container"}>
+        <main className={"mainContent"} id={"mc"}>
+
+          <HeroBanner />
+          <VisuallyHiddenSvgIcons />
+          <AdditionalContentRows />
+          <Contact />
+        </main>
+      </div>
+    </div>
   );
 }
-
 
 export default App;

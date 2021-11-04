@@ -1,0 +1,442 @@
+.btn {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 25px;
+    line-height: 1.5625rem;
+    padding: 2px 55px 2px 10px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+
+    .ico {
+        -webkit-transform: translateY(-50%);
+        display: block;
+        height: 14px;
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: all 0.25s ease 0s, background-color 0s linear 0s;
+        width: 14px;
+
+        .ico > svg {
+            fill: $tal-grey;
+            margin-right: 10px;
+            transition: fill 0.25s ease 0s, opacity 0.25s ease 0.5s;
+        }
+    }
+
+    &.loading {
+        cursor: default;
+
+        &:after,
+        &:before {
+            content: "";
+            position: absolute;
+        }
+
+        &:before {
+            -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+            right: 20px;
+        }
+
+        &:after {
+            -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+            right: 10px;
+        }
+
+        .ico,
+        &:after,
+        &:before {
+            -webkit-animation-delay: 0s;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-name: btnLoadingSub;
+            -webkit-animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-name: btnLoadingSub;
+            animation-timing-function: linear;
+            background-color: white;
+            border-radius: 50%;
+            height: 8px;
+            margin-top: -4px;
+            opacity: 0;
+            top: 50%;
+            width: 8px;
+        }
+
+        .ico {
+            -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+            background-color: white;
+            right: 30px;
+
+            & > svg {
+                opacity: 0;
+            }
+        }
+    }
+
+    &:active,
+    &:hover {
+        background-color: #283545;
+        color: #f4ad03;
+        text-shadow: 0 1px 1px #151c25;
+
+        &:active .ico > svg {
+            fill: #f4ad03;
+        }
+    }
+
+    &.disabled,
+    &[disabled] {
+        background-color: #b2bfd0 !important;
+        color: #ebf0f4 !important;
+        cursor: default;
+        text-shadow: 0 1px 1px #92a5bd !important;
+
+        .ico > svg {
+            fill: #ebf0f4 !important;
+        }
+    }
+}
+
+.btn-fill,
+.btn-full {
+    display: block;
+    width: 100%;
+}
+
+.btn-blue {
+    background-color: #0c51a3;
+    color: #fff;
+    text-shadow: 0 1px 1px #093973;
+}
+
+.btn-red {
+    background-color: #ea0404;
+    color: #fff;
+    text-shadow: 0 1px 1px #b80303;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #283545;
+    text-shadow: none;
+}
+
+.btn-yellow {
+    background-color: #f4ad03;
+    color: #283545;
+    text-shadow: 0 1px 1px #fdcf60;
+
+    .ico > svg {
+        fill: #283545;
+    }
+
+    &.loading .ico,
+    &.loading:after,
+    &.loading:before {
+        background-color: #283545;
+    }
+}
+
+.btn-teal {
+    background-color: #01acb6;
+    color: #fff;
+    text-shadow: 0 1px 1px #0a8194;
+}
+
+.btn-sm,
+.btn-small {
+    font-size: 11px;
+    font-size: 0.6875rem;
+    line-height: 16px;
+    line-height: 1rem;
+    padding-right: 40px;
+    text-shadow: none;
+}
+
+.btn-sm .ico,
+.btn-small .ico {
+    height: 10px;
+    width: 10px;
+}
+
+.btn-large,
+.btn-lg {
+    border-bottom: 1px solid #151c25;
+    border-top: 1px solid #3b4e65;
+    font-size: 15px;
+    font-size: 0.9375rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+    padding: 5px 65px 5px 15px;
+
+    &:active,
+    &:hover {
+        border-bottom: 1px solid #151c25;
+        border-top: 1px solid #3b4e65;
+    }
+
+    &.disabled,
+    &[disabled] {
+        border-bottom: 1px solid #a2b2c6 !important;
+        border-top: 1px solid #c2ccda !important;
+    }
+
+    .ico {
+        height: 17px;
+        right: 15px;
+        width: 17px;
+    }
+
+    &.loading {
+        .ico {
+            right: 35px;
+        }
+
+        &:before {
+            right: 25px;
+        }
+
+        &:after {
+            right: 15px;
+        }
+    }
+
+    &.btn-blue {
+        border-bottom: 1px solid #093973;
+        border-top: 1px solid #0f69d3;
+    }
+
+    &.btn-red {
+        border-bottom: 1px solid #6d0202;
+        border-top: 1px solid #fd7171;
+    }
+
+    &.btn-white {
+        border-bottom: 1px solid #bfbfbf;
+        border-top: 1px solid #fff;
+    }
+
+    &.btn-yellow,
+    &.btn-yellow {
+        border-bottom: 1px solid #db9b03;
+        border-top: 1px solid #fdc747;
+    }
+
+    &.btn-teal,
+    &.btn-teal {
+        border-bottom: 1px solid #018a92;
+        border-top: 1px solid #01ceda;
+    }
+}
+
+.btn-material {
+    background-color: rgba(40, 53, 69, 0.2);
+    border: 1px solid #fff;
+    text-shadow: none;
+
+    &:hover {
+        background-color: #fff;
+        border-color: #283545;
+        color: #283545;
+        text-shadow: none;
+
+        &:hover .ico > svg {
+            fill: #283545;
+        }
+    }
+
+    &.btn-material-dark {
+        background-color: hsla(0, 0%, 100%, 0.2);
+        border-color: #283545;
+        color: #283545;
+
+        &:hover {
+            background-color: #0c51a3;
+            border-color: #283545;
+            color: #fff;
+
+            & .ico > svg {
+                fill: #fff;
+            }
+        }
+
+        .ico > svg {
+            fill: #283545;
+        }
+    }
+}
+
+.btn-round {
+    background: linear-gradient(180deg, #5b6a88, #283545);
+    border-radius: 25px;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 37px;
+    line-height: 2.3125rem;
+    overflow: hidden;
+    padding: 0 67px 0 17px;
+    white-space: nowrap;
+
+    .ico {
+        height: 17px;
+        right: 17px;
+        width: 17px;
+    }
+
+    &.btn-blue {
+        background: linear-gradient(180deg, #0e5dbb, #0a458b);
+    }
+
+    &.btn-white {
+        background: linear-gradient(180deg, #fff, #f2f2f2);
+    }
+
+    &.btn-yellow {
+        background: linear-gradient(180deg, #fcb814, #db9b03);
+    }
+
+    &.btn-teal {
+        background: linear-gradient(180deg, #01c4cf, #01949d);
+    }
+
+    &.loading {
+        &:before {
+            right: 27px;
+        }
+
+        &:after {
+            right: 17px;
+        }
+        .ico {
+            right: 37px;
+        }
+    }
+
+    &:active,
+    &:hover {
+        background: linear-gradient(180deg, #475269, #151c25);
+    }
+
+    &.disabled,
+    &[disabled] {
+        background: linear-gradient(180deg, #c2ccda, #a2b2c6) !important;
+    }
+}
+
+.btn-cta {
+    border: 3px solid #fff;
+    display: block;
+    font-family: "Montserrat", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 33px;
+    line-height: 2.0625rem;
+    margin: 0 -3px;
+    padding: 8px 0;
+    text-align: center;
+    width: calc(100% + 6px);
+
+    .ico {
+        display: none;
+    }
+
+    &:active,
+    &:hover {
+        border-color: #fff;
+    }
+}
+.omni-btns {
+    a {
+        height: 55px;       
+        background-image: unset;
+        background-size: unset;
+        padding: 12px 35px;
+        color: white;
+        background-color: unset;
+        border: 1px solid $tal-yellow !important;
+        border-radius: 0.25em;
+        text-transform: uppercase;
+        transition: all 0.25s ease 0s;
+        vertical-align: middle;
+        white-space: nowrap;
+
+        &:visited,
+        &:hover,
+        &:active {  
+            color: $tal-yellow;
+            text-decoration: none;            
+            text-shadow: none;
+            background-color: $tal-grey-darkest !important;
+            box-shadow: none;
+
+            svg {
+                fill: $tal-yellow;
+            }
+        }
+
+    }
+
+    svg {
+        fill: white;
+        margin-right: 10px;
+    }
+}
+
+.omni-row-gradient {
+    //background: linear-gradient(to right, #906d7d 0%, #faf9ee 99%);
+
+    .btn {
+        background-color: unset;
+        background-image: unset !important;
+        padding: 15px 20px 15px 20px;
+        text-shadow: unset;
+        // color: #352326;
+
+        &:active,
+        &:hover {
+            // background-color: #eef2f7 !important;
+            color: unset !important;
+            text-shadow: unset !important;
+        }
+
+        .octicon {
+            margin-right: 6px;
+            fill: #352326;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .omni-row-gradient {
+        // &.multi-ling {
+        //     background: linear-gradient(to left, #faf9ee 0%, #906d7d 100%);
+        // }
+    }
+    .omni-btns {
+        a {
+            width: 100% !important;
+            margin: 0 auto 10px !important;
+        }
+    }
+}
